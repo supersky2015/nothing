@@ -9,5 +9,5 @@ git remote add origin git@github.com:xxxxxx/yyyyy.git    origin为远程库的�
 git push -u origin master  把本地master分支的所有文件推送到远程库origin。
 git remote rm origin	移除跟远程库origin的关联。
 git push origin master
-
+git diff HEAD "XXX.TXT"
 //
