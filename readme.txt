@@ -16,8 +16,12 @@ git clone git@github.com:supersky2015/xxxx.git //用的ssh协议
 先拥有远程库，再把远程库克隆到本地，跟本地库连接。
 git clone https://github.com/supersky2015/xxxx.git	//用的https协议
 
+//
 git checkout -b devname //创建分支并切换到分支
 git branch devname //创建分支
 git checkout dev //切换到分支
 git branch//查看分支
 git branch dev2
+git meger dev //合并分支
+git branch -d dev	//删除分支
+//
