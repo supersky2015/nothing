@@ -20,4 +20,4 @@ git checkout -b devname //创建分支并切换到分支
 git branch devname //创建分支
 git checkout dev //切换到分支
 git branch//查看分支
-//
+git branch dev2
