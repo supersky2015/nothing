@@ -17,3 +17,4 @@ git clone git@github.com:supersky2015/xxxx.git //用的ssh协议
 git clone https://github.com/supersky2015/xxxx.git	//用的https协议
 
 //
+git branch dev2
