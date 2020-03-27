@@ -24,4 +24,9 @@ git branch//查看分支
 git branch dev2
 git meger dev //合并分支
 git branch -d dev	//删除分支
+
+git log --graph --pretty=oneline --abbrev-commit	//查看合并分支情况
+git log
+git log --pretty=oneline
+git log --graph --pretty=oneline
 //
