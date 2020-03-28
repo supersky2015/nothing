@@ -22,12 +22,15 @@ git branch devname //创建分支
 git checkout dev //切换到分支
 git branch//查看分支
 git branch dev2
-git merge dev //合并分支
+git merge dev //合并分支 默认Fast forward. 但这种模式下 ， 删除分支后 ，会丢掉分支信息。
 git branch -d dev	//删除分支
 
-git log --graph --pretty=oneline --abbrev-commit	//查看合并分支情况
+git log --graph --pretty=oneline --abbrev-commit	//查看合并分支情况 
 git log
 git log --pretty=oneline
 git log --graph --pretty=oneline
+
+git merge --no-ff -m "merge with no-ff" dev //Git 就会在 merge 时生成一个新的 commit ，这样 ，从分支历史上就可以看出分支信息。
 //
 PHP<a>标签传参数Url不能太长，否则会导致Ondrop无效。
+just test another merge 
