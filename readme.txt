@@ -30,3 +30,4 @@ git log
 git log --pretty=oneline
 git log --graph --pretty=oneline
 //
+PHP<a>标签传参数Url不能太长，否则会导致Ondrop无效。
