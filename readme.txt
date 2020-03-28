@@ -30,7 +30,7 @@ git log
 git log --pretty=oneline
 git log --graph --pretty=oneline
 
-git merge --no-ff -m "merge with no-ff" //Git 就会在 merge 时生成一个新的 commit ，这样 ，从分支历史上就可以看出分支信息。
+git merge --no-ff -m "merge with no-ff" dev //Git 就会在 merge 时生成一个新的 commit ，这样 ，从分支历史上就可以看出分支信息。
 //
 PHP<a>标签传参数Url不能太长，否则会导致Ondrop无效。
 just test another merge 
