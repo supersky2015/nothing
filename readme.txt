@@ -33,6 +33,13 @@ git log --graph --pretty=oneline
 git merge --no-ff -m "merge with no-ff" dev //Git 就会在 merge 时生成一个新的 commit ，这样 ，从分支历史上就可以看出分支信息。
 git reset --hard HEAD^
 git diff HEAD xx.txt
+
+git stash	//存储当前工作现场
+git stash list //查看存储的工作现场
+git stash apply	//恢复现场。stash内容不删除；
+git stash drop //删除现场
+git stash pop 	//恢复现场，并删除stash内容；
+git stash apply stash@{0}	//恢复指定现场。
 //
 PHP<a>标签传参数Url不能太长，否则会导致Ondrop无效。
 just test another merge 
