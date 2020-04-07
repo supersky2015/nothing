@@ -24,6 +24,7 @@ git branch//查看分支
 git branch dev2
 git merge dev //合并分支 默认Fast forward. 但这种模式下 ， 删除分支后 ，会丢掉分支信息。
 git branch -d dev	//删除分支
+git branch -D dev//强力删除
 
 git log --graph --pretty=oneline --abbrev-commit	//查看合并分支情况 
 git log
@@ -40,6 +41,7 @@ git stash apply	//恢复现场。stash内容不删除；
 git stash drop //删除现场
 git stash pop 	//恢复现场，并删除stash内容；
 git stash apply stash@{0}	//恢复指定现场。
+
 //
 PHP<a>标签传参数Url不能太长，否则会导致Ondrop无效。
 just test another merge 
