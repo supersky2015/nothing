@@ -7,6 +7,7 @@ git tracks changes of files.
 创建SSH Key: ssh-keygen -t rsa -C "youremail@example.com"
 git remote add origin git@github.com:xxxxxx/yyyyy.git    origin为远程库的名称，也可以改别的。
 先拥有本地库，再建立跟远程库的连接。origin为远程库的名称。yyyyy.git为建立连接的远程库
+git remote add dev git@github.com:xxxx/yyyy.git  dev为远程 tttttt新建一个分支库名字。
 git push -u origin master  把本地master分支的所有文件推送到远程库origin。
 git remote rm origin	移除跟远程库origin的关联。
 git push origin master	//把master分支推送到远程库origin
