@@ -47,6 +47,11 @@ git stash drop //删除现场
 git stash pop 	//恢复现场，并删除stash内容；
 git stash apply stash@{0}	//恢复指定现场。
 
+ git push origin branch-name	//推送自己的修改
+  git pull	//获取最新 
+  如果 git pull 提示“no tracking information” ，则说明本地分支和远程分支的链接
+关系没有创建，用命令 git branch --set-upstream-to branch-name origin/branch-name 。
+
 //
 PHP<a>标签传参数Url不能太长，否则会导致Ondrop无效。
 just test another merge 
